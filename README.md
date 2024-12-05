@@ -26,7 +26,7 @@ $ time ./fibloop 100000
 [hyperfine](https://github.com/sharkdp/hyperfine)
 
 ```bash
-hyperfine -i --shell=none --runs 10 --warmup 2 './nim/fibloop 100000'
+hyperfine -i --shell=none --runs 10 --warmup 2 './fibloop 100000'
 ```
 
 ```console
